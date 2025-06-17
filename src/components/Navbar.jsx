@@ -12,7 +12,7 @@ const Navbar = () => {
   let [open, setOpen] = useState(false);
   return (
     <nav className=" w-full border-b border-[#B4B4B3]  ">
-      <div className="flex bg-white items-center justify-between  md:px-[60px] px-[30px] ">
+      <div className="flex bg-white items-center justify-between  md:px-[60px] px-2 ">
         <div className="flex h-[71.21px] items-center md:border-r md:border-[#B4B4B3] px-5">
           <img src={logo} alt="logo" className="md:h-[28.79px] h-[21.59px]" />
         </div>
