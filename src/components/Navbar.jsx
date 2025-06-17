@@ -11,14 +11,14 @@ const Navbar = () => {
   ];
   let [open, setOpen] = useState(false);
   return (
-    <nav className=" w-full fixed top-0 left-0 border-b border-[#B4B4B3]  ">
+    <nav className=" w-full border-b border-[#B4B4B3]  ">
       <div className="flex bg-white items-center justify-between  md:px-[60px] px-[30px] ">
         <div className="flex h-[71.21px] items-center md:border-r md:border-[#B4B4B3] px-5">
-          <img src={logo} alt="logo" height={28.79} />
+          <img src={logo} alt="logo" className="md:h-[28.79px] h-[21.59px]" />
         </div>
 
         <ul
-          className={`md:flex md:items-center md:justify-center md:pb-0 pb-10 md:static absolute left-0 max-md:bg-green-950 text-3xl md:text-2xl max-md:text-white  md:z-[auto] z-[-1] md:w-[auto] w-full md:pl-0 pl-10 transition-all duration-500 ease-in gap-[32px] ${
+          className={`md:flex md:items-center md:justify-center md:pb-0 pb-10 md:static absolute left-0 max-md:bg-green-950  text-3xl md:text-2xl max-md:text-white  md:z-[auto] z-[-1] md:w-[auto] w-full md:pl-0 pl-10 transition-all duration-500 ease-in gap-[32px] ${
             open ? "top-18 opacity-100" : "top-[-490px]"
           }`}
         >
