@@ -4,7 +4,7 @@ import stamp from "../assets/stamp.png";
 
 const Hero = () => {
   return (
-    <div className="w-full h-[750px] bg-[#72B778] relative z-[-2] overflow-hidden">
+    <div className="w-full h-[750px] bg-[#72B778] relative z-[-2] overflow-hidden ">
       {/* Desktop screen... */}
       <div className="max-md:hidden w-full h-[568px] md:absolute md:top-[69px] md:left-[60px]">
         <h5 className="text-white font-[anton] text-[139px] leading-[160px]">
